@@ -4,9 +4,6 @@
 
 #untuk termux
 $pkg upgrade && upkg update
-$pkg install ruby
-$gem install lolcat
-$pkg install cowsay
 $pkg install git
 $git clone https://github.com/BruceAlways/Puggy-v3
 $cd Puggy-v3
@@ -15,9 +12,6 @@ $sh Puggy-v3
 
 #Untuk Linux
 $apt upgrade && upkg update
-$apt install ruby
-$gem install lolcat
-$apt install cowsay
 $apt install git
 $apt clone https://github.com/BruceAlways/Puggy-v3
 $cd Puggy-v3
